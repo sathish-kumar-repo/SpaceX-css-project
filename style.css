@@ -12,7 +12,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  user-select: none;
+  /* user-select: none; */
+}
+
+.container {
+  max-width: 1250px;
+  margin: auto;
 }
 
 header {
@@ -62,14 +67,15 @@ nav .menu {
 }
 
 .hero {
-  height: 100vh;
-}
+  padding: 20px;
+  color: var(--text-color);
 
-.img {
   background-image: url("images/space.png");
-  height: 100%;
-  width: 100%;
+  line-height: 35px;
+
+  min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
