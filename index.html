@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SpaceX</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/main.css" />
   </head>
 
   <body>
@@ -24,10 +24,9 @@
       </nav>
     </header>
 
-    <!-- 1000px -->
     <main class="hero">
+      <!-- Hero Grid -->
       <div class="container hero-grid">
-        <!-- Box - 1 -->
         <section class="hero-content">
           <div class="hero-tag">🚀 THE FUTURE OF SPACE</div>
 
@@ -44,7 +43,6 @@
           </div>
         </section>
 
-        <!-- Box - 2 -->
         <section class="stats-grid">
           <div class="stat-card">
             <h2>200+</h2>
@@ -67,6 +65,42 @@
           </div>
         </section>
       </div>
+
+      <!-- Login form -->
+      <section class="login-section">
+        <div class="login-card">
+          <div class="login-header">
+            <span>🔐</span>
+            <h2>Mission Login</h2>
+            <p>Access your SpaceX mission dashboard.</p>
+          </div>
+
+          <form class="login-form">
+
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            />
+
+            <label for="checkbox">
+              <input type="checkbox" id="checkbox"> Remember me
+            </label>
+
+            <button type="submit">Launch Login</button>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
 </html>
