@@ -26,7 +26,7 @@
 
     <main class="hero">
       <!-- Hero Grid -->
-      <div class="container hero-grid">
+       <div class="container hero-grid">
         <section class="hero-content">
           <div class="hero-tag">🚀 THE FUTURE OF SPACE</div>
 
@@ -64,7 +64,56 @@
             <p>Possibilities</p>
           </div>
         </section>
-      </div>
+      </div> 
+
+      <!-- Upcoming Launches -->
+      <section class="container launches">
+        <div class="launches-head">
+          <h2>Upcoming <span>Launches</span></h2>
+          <p>
+            Track our mission schedule and reserve your seat on an Upcoming
+            flight
+          </p>
+        </div>
+
+        <div class="launch-filter">
+          <button class="active">All</button>
+          <button>Starlink</button>
+          <button>Crew</button>
+          <button>Cargo</button>
+        </div>
+
+        <div class="launch-grid">
+
+          <div class="launch-card">
+            <div class="launch-status live">LIVE</div>
+            <div class="rocket">🛰️</div>
+            <h3>Starlink</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, necessitatibus.</p>
+            <span class="launch-date">Today . 14:20 UTC</span>
+          </div>
+
+          <div class="launch-card">
+            <div class="launch-status scheduled">SCHEDULED</div>
+            <div class="rocket">🚀</div>
+            <h3>Crew</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, labore?</p>
+            <span class="launch-date">Oct 3 . 09:05</span>
+          </div>
+
+          <div class="launch-card">
+            <div class="launch-status completed">COMPLETED</div>
+            <div class="rocket">📦</div>
+            <h3>Cargo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, aliquam.</p>
+            <span class="launch-date">Sep . 22:47 UTC</span>
+          </div>
+
+        </div>
+
+      </section>
+
+      <a href="#" class="book-seat-btn">Book a Seat</a>
 
       <!-- Login form -->
       <section class="login-section">
@@ -97,8 +146,8 @@
             </div>
 
             <label for="checkbox" class="remember">
-              <input type="checkbox" id="checkbox" /> 
-              
+              <input type="checkbox" id="checkbox" />
+
               Remember me
             </label>
 

@@ -33,7 +33,7 @@
 }
 
 .login-header p {
-    color: #d5d9e1d0;
+    color: var(--des-color);
     font-size: 14px;
 }
 
