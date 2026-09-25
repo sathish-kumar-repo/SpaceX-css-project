@@ -14,19 +14,18 @@
           <div class="logo"><a href="#">SpaceX</a></div>
 
           <ul class="main-link">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#launches">Launches</a></li>
+            <li><a href="#journal">Journal</a></li>
+            <li><a href="#login">Login</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <main class="hero">
+    <main id="home" class="hero">
       <!-- Hero Grid -->
-       <div class="container hero-grid">
+      <div class="container hero-grid">
         <section class="hero-content">
           <div class="hero-tag">🚀 THE FUTURE OF SPACE</div>
 
@@ -64,10 +63,10 @@
             <p>Possibilities</p>
           </div>
         </section>
-      </div> 
+      </div>
 
       <!-- Upcoming Launches -->
-      <section class="container launches">
+      <section id="launches" class="container launches">
         <div class="launches-head">
           <h2>Upcoming <span>Launches</span></h2>
           <p>
@@ -84,12 +83,14 @@
         </div>
 
         <div class="launch-grid">
-
           <div class="launch-card">
             <div class="launch-status live">LIVE</div>
             <div class="rocket">🛰️</div>
             <h3>Starlink</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, necessitatibus.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+              necessitatibus.
+            </p>
             <span class="launch-date">Today . 14:20 UTC</span>
           </div>
 
@@ -97,7 +98,10 @@
             <div class="launch-status scheduled">SCHEDULED</div>
             <div class="rocket">🚀</div>
             <h3>Crew</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, labore?</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              labore?
+            </p>
             <span class="launch-date">Oct 3 . 09:05</span>
           </div>
 
@@ -105,18 +109,84 @@
             <div class="launch-status completed">COMPLETED</div>
             <div class="rocket">📦</div>
             <h3>Cargo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, aliquam.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              aliquam.
+            </p>
             <span class="launch-date">Sep . 22:47 UTC</span>
           </div>
-
         </div>
-
       </section>
 
-      <a href="#" class="book-seat-btn">Book a Seat</a>
+      <a href="#login" class="book-seat-btn">Book a Seat</a>
+
+      <section id="journal" class="container journal">
+        <div class="journal-head">
+          <h2>Mission <span>Journal</span></h2>
+          <p>
+            Behind-the-scenes notes from the launch team, published in the final
+            hours before every flight.
+          </p>
+        </div>
+
+        <article class="blog-post">
+
+          <div class="blog-tags">
+            <span class="blog-tag">Mission Log</span>
+            <span class="blog-tag">Starlink</span>
+            <span class="blog-tag">Behind the Scenes</span>
+          </div>
+
+          <h1>72 Hours Before <span>Liftoff</span></h1>
+          <p class="blog-byline">By the SpaceX Mission Team · 9 min read</p>
+
+          <p class="blog-intro">
+            Three days out, the pad goes quiet in a way that only the launch
+            team notices. Every system has already been checked twice, and
+            what's left is the slow, careful work of making sure nothing was
+            missed.
+          </p>
+
+          <blockquote class="blog-quote">
+            The countdown doesn't start at zero — it starts the moment the
+            rocket is stacked.
+          </blockquote>
+
+          <h2>What happens in the final stretch</h2>
+          <div class="blog-body">
+            <p>
+              The static fire test comes first, a brief ignition while the
+              rocket stays firmly on the pad. Every second of data from that
+              test is reviewed before the team clears the vehicle for flight.
+            </p>
+            <p>
+              From there, it's weather, range safety, and payload checks — each
+              team reporting "go" in turn during the final poll before fueling
+              begins.
+            </p>
+          </div>
+
+          <h2>Flight sequence</h2>
+
+          <ol class="blog-sequence">
+            <li>Propellant load begins</li>
+            <li>Engine chill and pre-valve checks</li>
+            <li>Terminal count auto-sequence starts</li>
+            <li>Main engine ignition and liftoff</li>
+          </ol>
+
+          <div class="blog-duration" data-icon="🚀">Countdown to liftoff: T-minus 72:00:00</div>
+
+          <form action="#" class="blog-comment">
+            <input type="text" placeholder="Leave a comment for the crew…">
+            <button type="submit">Post</button>
+          </form>
+
+        </article>
+      </section>
 
       <!-- Login form -->
-      <section class="login-section">
+      <section id="login" class="login-section">
         <div class="login-card">
           <div class="login-header">
             <span>🔐</span>

@@ -22,3 +22,12 @@
     max-width: 1280px;
     margin: auto;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: var(--hl-color);
+    color: white;
+}
